@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Student Result Search System</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside
+        class="sidebar"
+        id="sidebar">
+        <div class="brand">
+          <div class="brand-logo">SR</div>
+          <div>
+            <h1>Student Result</h1>
+            <p>Linear Search Dashboard</p>
+          </div>
+        </div>
+        <nav
+          class="sidebar-nav"
+          id="sidebarNav">
+          <button
+            class="nav-item active"
+            data-section="search-result">
+            Search Result
+          </button>
+          <button
+            class="nav-item"
+            data-section="all-students">
+            All Students
+          </button>
+          <button
+            class="nav-item"
+            data-section="about-linear">
+            About Linear Search
+          </button>
+          <button
+            class="nav-item"
+            data-section="how-it-works">
+            How It Works
+          </button>
+          <button
+            class="nav-item"
+            data-section="search-history">
+            Search History
+          </button>
+          <button
+            class="nav-item"
+            data-section="group-management">
+            Group Management
+          </button>
+          <button
+            class="nav-item"
+            data-section="analytics">
+            Analytics
+          </button>
+          <button
+            class="nav-item"
+            data-section="settings">
+            Settings
+          </button>
+        </nav>
+      </aside>
+
+      <div class="main-area">
+        <header class="top-header">
+          <div class="header-left">
+            <button
+              class="menu-btn"
+              id="menuBtn"
+              aria-label="Toggle sidebar">
+              ☰
+            </button>
+            <h2 id="pageTitle">Search Result</h2>
+          </div>
+          <div class="header-right">
+            <span
+              class="icon-btn"
+              title="Search"
+              >🔍</span
+            >
+            <span class="group-badge">Group A</span>
+            <button
+              class="icon-btn"
+              id="themeToggle"
+              title="Toggle theme">
+              🌙
+            </button>
+            <div class="avatar">AK</div>
+          </div>
+        </header>
+
+        <main class="content">
+          <section
+            class="page-section active"
+            id="search-result">
+            <div class="card">
+              <h3>Search Student Record</h3>
+              <div class="search-row">
+                <input
+                  id="searchInput"
+                  type="text"
+                  placeholder="Enter full name, partial name, or matric number..." />
+                <button
+                  id="searchBtn"
+                  class="primary-btn">
+                  Run Linear Search
+                </button>
+              </div>
+              <p class="muted">
+                Data source: <code>students.json</code> loaded dynamically via
+                <code>fetch()</code>.
+              </p>
+            </div>
+
+            <div class="grid two-col">
+              <article
+                class="card"
+                id="progressCard">
+                <h3>Search Progress</h3>
+                <div class="progress-stats">
+                  <div>
+                    <span>Comparisons</span
+                    ><strong id="comparisonsCount">0</strong>
+                  </div>
+                  <div>
+                    <span>Current Index</span
+                    ><strong id="currentIndex">-</strong>
+                  </div>
+                  <div>
+                    <span>Percentage Checked</span
+                    ><strong id="percentChecked">0%</strong>
+                  </div>
+                  <div>
+                    <span>Status</span><strong id="searchStatus">Idle</strong>
+                  </div>
+                </div>
+                <div class="progress-track">
+                  <div
+                    class="progress-fill"
+                    id="progressFill"></div>
+                </div>
+              </article>
+
+              <article
+                class="card"
+                id="studentCard">
+                <h3>Student Result</h3>
+                <div
+                  id="studentResultBody"
+                  class="empty-state">
+                  No search has been performed yet.
+                </div>
+              </article>
+            </div>
+
+            <article class="card">
+              <h3>Courses</h3>
+              <div
+                id="coursesTableWrap"
+                class="empty-state">
+                Search a student to view registered courses.
+              </div>
+            </article>
+          </section>
+
+          <section
+            class="page-section"
+            id="all-students">
+            <div class="card">
+              <h3>All Students</h3>
+              <div class="filters-row">
+                <input
+                  id="allStudentsFilter"
+                  type="text"
+                  placeholder="Filter by name or matric number" />
+                <select id="deptFilter">
+                  <option value="all">All Departments</option>
+                </select>
+                <button
+                  id="sortGpaBtn"
+                  class="secondary-btn">
+                  Sort GPA: High → Low
+                </button>
+              </div>
+              <div
+                class="table-wrap"
+                id="studentsTableWrap"></div>
+            </div>
+          </section>
+
+          <section
+            class="page-section"
+            id="about-linear">
+            <div class="card">
+              <h3>About Linear Search</h3>
+              <p>
+                Linear search scans each record one by one from the first
+                element until a match is found or the list ends. It is simple
+                and effective when data is unsorted.
+              </p>
+              <div class="grid three-col">
+                <div class="info-card">
+                  <h4>Advantages</h4>
+                  <ul>
+                    <li>Very easy to implement</li>
+                    <li>No sorting required</li>
+                    <li>Works for small datasets</li>
+                  </ul>
+                </div>
+                <div class="info-card">
+                  <h4>Disadvantages</h4>
+                  <ul>
+                    <li>Slow for large datasets</li>
+                    <li>Checks may be many</li>
+                    <li>Not optimized for repeated queries</li>
+                  </ul>
+                </div>
+                <div class="info-card">
+                  <h4>Use Cases</h4>
+                  <ul>
+                    <li>Unsorted lists</li>
+                    <li>Occasional lookups</li>
+                    <li>Educational visualization</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid three-col complexity-grid">
+                <div class="metric-card">
+                  <span>Best</span><strong>O(1)</strong>
+                </div>
+                <div class="metric-card">
+                  <span>Average</span><strong>O(n)</strong>
+                </div>
+                <div class="metric-card">
+                  <span>Worst</span><strong>O(n)</strong>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="page-section"
+            id="how-it-works">
+            <div class="card">
+              <h3>How Linear Search Works</h3>
+              <ol class="step-list">
+                <li><span>1</span>Start from the first student record.</li>
+                <li>
+                  <span>2</span>Compare target query with current student's name
+                  and matric number.
+                </li>
+                <li><span>3</span>If no match, continue to the next record.</li>
+                <li><span>4</span>Stop immediately when match is found.</li>
+                <li><span>5</span>Return “Not Found” if the end is reached.</li>
+              </ol>
+            </div>
+          </section>
+
+          <section
+            class="page-section"
+            id="search-history">
+            <div class="card">
+              <div class="space-between">
+                <h3>Search History</h3>
+                <button
+                  id="clearHistoryBtn"
+                  class="danger-btn">
+                  Clear History
+                </button>
+              </div>
+              <div
+                class="table-wrap"
+                id="historyTableWrap"></div>
+            </div>
+          </section>
+
+          <section
+            class="page-section"
+            id="group-management">
+            <div class="card">
+              <h3>Group Management (Department Distribution)</h3>
+              <div id="departmentStats"></div>
+            </div>
+          </section>
+
+          <section
+            class="page-section"
+            id="analytics">
+            <div
+              class="grid four-col"
+              id="analyticsCards"></div>
+          </section>
+
+          <section
+            class="page-section"
+            id="settings">
+            <div class="card">
+              <h3>Settings</h3>
+              <div class="settings-grid">
+                <label>
+                  <span>Dark Mode</span>
+                  <input
+                    type="checkbox"
+                    id="darkModeSetting" />
+                </label>
+                <label>
+                  <span>Search Speed (ms delay)</span>
+                  <input
+                    type="range"
+                    id="searchSpeedSetting"
+                    min="0"
+                    max="1000"
+                    step="50" />
+                  <small id="searchSpeedValue">300ms</small>
+                </label>
+                <label>
+                  <span>Items Per Page</span>
+                  <select id="itemsPerPageSetting">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Enable Animations</span>
+                  <input
+                    type="checkbox"
+                    id="animationsSetting"
+                    checked />
+                </label>
+              </div>
+              <button
+                id="saveSettingsBtn"
+                class="primary-btn">
+                Save Settings
+              </button>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
