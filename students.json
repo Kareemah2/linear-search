@@ -1,5 +1,85 @@
 [
   {
+    "name": "Abdulazeez Ibrahim Olalekan",
+    "matricNo": "U25CS1064",
+    "results": {
+      "COS101": "B",
+      "CSC111": "C",
+      "GST111": "B",
+      "MTH101": "E",
+      "MTH103": "D",
+      "PHY101": "D",
+      "PHY107": "B",
+      "STA111": "C"
+    },
+    "gpa": 3.11,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Mohammed Khadijah Gumsuri",
+    "matricNo": "U25CS1066",
+    "results": {
+      "COS101": "A",
+      "CSC111": "C",
+      "GST111": "A",
+      "MTH101": "C",
+      "MTH103": "C",
+      "PHY101": "C",
+      "PHY107": "A",
+      "STA111": "B"
+    },
+    "gpa": 3.78,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Ajibade Mutimonat Amoke",
+    "matricNo": "U25CS1067",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "A",
+      "STA111": "A"
+    },
+    "gpa": 4.50,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Akinpeloye Righteousness",
+    "matricNo": "U25CS1065",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "B",
+      "STA111": "A"
+    },
+    "gpa": 4.50,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Arum Enoch Jonathan",
+    "matricNo": "U25CS1068",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "A",
+      "STA111": "A"
+    },
+    "gpa": 4.50,
+    "status": "GOOD STANDING"
+  },
+  {
     "name": "Akanji Joel Olamilekan",
     "matricNo": "U25CS1001",
     "results": {
@@ -13,6 +93,150 @@
       "STA111": "A"
     },
     "gpa": 5.00,
+    "status": "GOOD STANDING"
+  },
+   {
+    "name": "Abdulkareem Khadeeja Bebeji",
+    "matricNo": "U25CS1045",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "A",
+      "STA111": "A"
+    },
+    "gpa": 4.83,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Isa Muhammad Mahmud",
+    "matricNo": "U25CS1046",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "C",
+      "PHY101": "C",
+      "PHY107": "A",
+      "STA111": "A"
+    },
+    "gpa": 4.44,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Samuel Precious Ayomide",
+    "matricNo": "U25CS1047",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "B",
+      "MTH101": "B",
+      "MTH103": "C",
+      "PHY101": "C",
+      "PHY107": "B",
+      "STA111": "B"
+    },
+    "gpa": 4.28,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Mbeh Ulimisi",
+    "matricNo": "U25CS1048",
+    "results": {
+      "COS101": "B",
+      "CSC111": "B",
+      "GST111": "B",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "A",
+      "STA111": "A"
+    },
+    "gpa": 4.56,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Idris Abdulmalik Mohammed",
+    "matricNo": "U25CS1049",
+    "results": {
+      "COS101": "A",
+      "CSC111": "D",
+      "GST111": "C",
+      "MTH101": "E",
+      "MTH103": "D",
+      "PHY101": "D",
+      "PHY107": "C",
+      "STA111": "C"
+    },
+    "gpa": 2.67,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Salim Farouk Galadanchi",
+    "matricNo": "U25CS1050",
+    "results": {
+      "COS101": "B",
+      "CSC111": "C",
+      "GST111": "B",
+      "MTH101": "C",
+      "MTH103": "D",
+      "PHY101": "D",
+      "PHY107": "B",
+      "STA111": "B"
+    },
+    "gpa": 3.50,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Alade Owoje Rex",
+    "matricNo": "U25CS1051",
+    "results": {
+      "COS101": "A",
+      "CSC111": "C",
+      "GST111": "B",
+      "MTH101": "B",
+      "MTH103": "C",
+      "PHY101": "C",
+      "PHY107": "B",
+      "STA111": "A"
+    },
+    "gpa": 4.11,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Oyewole Temilorun Oyedele",
+    "matricNo": "U25CS1052",
+    "results": {
+      "COS101": "B",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "A",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "A",
+      "STA111": "A"
+    },
+    "gpa": 4.72,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Musa Hadiza Ibrahim",
+    "matricNo": "U25CS1053",
+    "results": {
+      "COS101": "A",
+      "CSC111": "C",
+      "GST111": "B",
+      "MTH101": "D",
+      "MTH103": "D",
+      "PHY101": "D",
+      "PHY107": "B",
+      "STA111": "B"
+    },
+    "gpa": 3.61,
     "status": "GOOD STANDING"
   },
   {
@@ -64,6 +288,22 @@
     "status": "GOOD STANDING"
   },
   {
+    "name": "Dari Hamida Ahmed",
+    "matricNo": "U25CS1032",
+    "results": {
+      "COS101": "B",
+      "CSC111": "B",
+      "GST111": "B",
+      "MTH101": "E",
+      "MTH103": "E",
+      "PHY101": "D",
+      "PHY107": "C",
+      "STA111": "D"
+    },
+    "gpa": 2.56,
+    "status": "GOOD STANDING"
+  },
+  {
     "name": "Ogugua Emmanuel Onyenyechi",
     "matricNo": "U25CS1005",
     "results": {
@@ -77,6 +317,22 @@
       "STA111": "A"
     },
     "gpa": 4.50,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Apochi Godshield Oyichegba",
+    "matricNo": "U25CS1010",
+    "results": {
+      "COS101": "C",
+      "CSC111": "C",
+      "GST111": "B",
+      "MTH101": "C",
+      "MTH103": "E",
+      "PHY101": "C",
+      "PHY107": "B",
+      "STA111": "B"
+    },
+    "gpa": 3.00,
     "status": "GOOD STANDING"
   },
   {
@@ -142,22 +398,6 @@
       "STA111": "B"
     },
     "gpa": 3.50,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Apochi Godshield Oyichegba",
-    "matricNo": "U25CS1010",
-    "results": {
-      "COS101": "C",
-      "CSC111": null,
-      "GST111": null,
-      "MTH101": null,
-      "MTH103": null,
-      "PHY101": null,
-      "PHY107": null,
-      "STA111": null
-    },
-    "gpa": 3.00,
     "status": "GOOD STANDING"
   },
   {
@@ -336,6 +576,22 @@
     "gpa": 4.50,
     "status": "GOOD STANDING"
   },
+    {
+    "name": "Nurudeen Ashwaq",
+    "matricNo": "U25CS1074",
+    "results": {
+      "COS101": "A",
+      "CSC111": "A",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "C",
+      "PHY101": "B",
+      "PHY107": "B",
+      "STA111": "A"
+    },
+    "gpa": 4.39,
+    "status": "GOOD STANDING"
+  },
   {
     "name": "Awal Muhammad Lawal",
     "matricNo": "U25CS1022",
@@ -353,22 +609,6 @@
     "status": "GOOD STANDING"
   },
   {
-    "name": "Stephen David Ayomide",
-    "matricNo": "U25CS1023",
-    "results": {
-      "COS101": "A",
-      "CSC111": "A",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "C",
-      "STA111": "A"
-    },
-    "gpa": 4.61,
-    "status": "GOOD STANDING"
-  },
-  {
     "name": "Dunah Nuhyel Churchill",
     "matricNo": "U25CS1024",
     "results": {
@@ -382,6 +622,22 @@
       "STA111": "A"
     },
     "gpa": 4.28,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Stephen David Ayomide",
+    "matricNo": "U25CS1023",
+    "results": {
+      "COS101": "A",
+      "CSC111": "A",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "B",
+      "PHY107": "C",
+      "STA111": "A"
+    },
+    "gpa": 4.61,
     "status": "GOOD STANDING"
   },
   {
@@ -433,6 +689,23 @@
     "status": "GOOD STANDING"
   },
   {
+    "name": "Oluwalana Toluwani Elisha",
+    "matricNo": "U25CS1033",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "B",
+      "MTH101": "F",
+      "MTH103": "F",
+      "PHY101": "C",
+      "PHY107": "E",
+      "STA111": "E"
+    },
+    "gpa": 2.28,
+    "status": "GOOD STANDING",
+    "remarks": "C/OVER: MTH-101, MTH-103"
+  },
+  {
     "name": "Wannah Israel James",
     "matricNo": "U25CS1028",
     "results": {
@@ -446,22 +719,6 @@
       "STA111": "B"
     },
     "gpa": 4.11,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Abubakar Fatima",
-    "matricNo": "U25CS1029",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "C",
-      "MTH103": "B",
-      "PHY101": "C",
-      "PHY107": "B",
-      "STA111": "A"
-    },
-    "gpa": 4.17,
     "status": "GOOD STANDING"
   },
   {
@@ -496,39 +753,7 @@
     "gpa": 3.33,
     "status": "GOOD STANDING"
   },
-  {
-    "name": "Dari Hamida Ahmed",
-    "matricNo": "U25CS1032",
-    "results": {
-      "COS101": "B",
-      "CSC111": "B",
-      "GST111": "B",
-      "MTH101": "E",
-      "MTH103": "E",
-      "PHY101": "D",
-      "PHY107": "C",
-      "STA111": "D"
-    },
-    "gpa": 2.56,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Oluwalana Toluwani Elisha",
-    "matricNo": "U25CS1033",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "B",
-      "MTH101": "F",
-      "MTH103": "F",
-      "PHY101": "C",
-      "PHY107": "E",
-      "STA111": "E"
-    },
-    "gpa": 2.28,
-    "status": "GOOD STANDING",
-    "remarks": "C/OVER: MTH-101, MTH-103"
-  },
+  
   {
     "name": "Samson Asahel Hayok",
     "matricNo": "U25CS1034",
@@ -543,6 +768,22 @@
       "STA111": "B"
     },
     "gpa": 4.00,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Abubakar Fatima",
+    "matricNo": "U25CS1029",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "C",
+      "MTH103": "B",
+      "PHY101": "C",
+      "PHY107": "B",
+      "STA111": "A"
+    },
+    "gpa": 4.17,
     "status": "GOOD STANDING"
   },
   {
@@ -658,22 +899,6 @@
     "status": "GOOD STANDING"
   },
   {
-    "name": "Bwete Francis Angwe",
-    "matricNo": "U25CS1042",
-    "results": {
-      "COS101": "B",
-      "CSC111": "D",
-      "GST111": "B",
-      "MTH101": "E",
-      "MTH103": "D",
-      "PHY101": "D",
-      "PHY107": "B",
-      "STA111": "C"
-    },
-    "gpa": 3.00,
-    "status": "GOOD STANDING"
-  },
-  {
     "name": "Asien Collins Echichioya",
     "matricNo": "U25CS1043",
     "results": {
@@ -705,150 +930,7 @@
     "gpa": 4.28,
     "status": "GOOD STANDING"
   },
-  {
-    "name": "Abdulkareem Khadeeja Bebeji",
-    "matricNo": "U25CS1045",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "A",
-      "STA111": "A"
-    },
-    "gpa": 4.83,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Isa Muhammad Mahmud",
-    "matricNo": "U25CS1046",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "C",
-      "PHY101": "C",
-      "PHY107": "A",
-      "STA111": "A"
-    },
-    "gpa": 4.44,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Samuel Precious Ayomide",
-    "matricNo": "U25CS1047",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "B",
-      "MTH101": "B",
-      "MTH103": "C",
-      "PHY101": "C",
-      "PHY107": "B",
-      "STA111": "B"
-    },
-    "gpa": 4.28,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Mbeh Ulimisi",
-    "matricNo": "U25CS1048",
-    "results": {
-      "COS101": "B",
-      "CSC111": "B",
-      "GST111": "B",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "A",
-      "STA111": "A"
-    },
-    "gpa": 4.56,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Idris Abdulmalik Mohammed",
-    "matricNo": "U25CS1049",
-    "results": {
-      "COS101": "A",
-      "CSC111": "D",
-      "GST111": "C",
-      "MTH101": "E",
-      "MTH103": "D",
-      "PHY101": "D",
-      "PHY107": "C",
-      "STA111": "C"
-    },
-    "gpa": 2.67,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Salim Farouk Galadanchi",
-    "matricNo": "U25CS1050",
-    "results": {
-      "COS101": "B",
-      "CSC111": "C",
-      "GST111": "B",
-      "MTH101": "C",
-      "MTH103": "D",
-      "PHY101": "D",
-      "PHY107": "B",
-      "STA111": "B"
-    },
-    "gpa": 3.50,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Alade Owoje Rex",
-    "matricNo": "U25CS1051",
-    "results": {
-      "COS101": "A",
-      "CSC111": "C",
-      "GST111": "B",
-      "MTH101": "B",
-      "MTH103": "C",
-      "PHY101": "C",
-      "PHY107": "B",
-      "STA111": "A"
-    },
-    "gpa": 4.11,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Oyewole Temilorun Oyedele",
-    "matricNo": "U25CS1052",
-    "results": {
-      "COS101": "B",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "A",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "A",
-      "STA111": "A"
-    },
-    "gpa": 4.72,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Musa Hadiza Ibrahim",
-    "matricNo": "U25CS1053",
-    "results": {
-      "COS101": "A",
-      "CSC111": "C",
-      "GST111": "B",
-      "MTH101": "D",
-      "MTH103": "D",
-      "PHY101": "D",
-      "PHY107": "B",
-      "STA111": "B"
-    },
-    "gpa": 3.61,
-    "status": "GOOD STANDING"
-  },
+ 
   {
     "name": "Abdulmajeed Mujahid",
     "matricNo": "U25CS1054",
@@ -914,6 +996,22 @@
     "status": "GOOD STANDING"
   },
   {
+    "name": "Bwete Francis Angwe",
+    "matricNo": "U25CS1042",
+    "results": {
+      "COS101": "B",
+      "CSC111": "D",
+      "GST111": "B",
+      "MTH101": "E",
+      "MTH103": "D",
+      "PHY101": "D",
+      "PHY107": "B",
+      "STA111": "C"
+    },
+    "gpa": 3.00,
+    "status": "GOOD STANDING"
+  },
+  {
     "name": "Muhammad Naja'Atu Usman",
     "matricNo": "U25CS1058",
     "results": {
@@ -943,6 +1041,22 @@
       "STA111": "A"
     },
     "gpa": 4.89,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Musa Hephzibah Yesoko",
+    "matricNo": "U25CS1075",
+    "results": {
+      "COS101": "A",
+      "CSC111": "A",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "B",
+      "PHY101": "A",
+      "PHY107": "B",
+      "STA111": "A"
+    },
+    "gpa": 4.67,
     "status": "GOOD STANDING"
   },
   {
@@ -995,6 +1109,22 @@
     "remarks": "C/OVER: MTH-101, MTH-103"
   },
   {
+    "name": "Zarmai Emmanuela Shekwonygah",
+    "matricNo": "U25CS1073",
+    "results": {
+      "COS101": "A",
+      "CSC111": "B",
+      "GST111": "A",
+      "MTH101": "B",
+      "MTH103": "E",
+      "PHY101": "C",
+      "PHY107": "A",
+      "STA111": "B"
+    },
+    "gpa": 3.83,
+    "status": "GOOD STANDING"
+  },
+  {
     "name": "Ayem Virod Ethan",
     "matricNo": "U25CS1063",
     "results": {
@@ -1010,86 +1140,7 @@
     "gpa": 4.11,
     "status": "GOOD STANDING"
   },
-  {
-    "name": "Abdulazeez Ibrahim Olalekan",
-    "matricNo": "U25CS1064",
-    "results": {
-      "COS101": "B",
-      "CSC111": "C",
-      "GST111": "B",
-      "MTH101": "E",
-      "MTH103": "D",
-      "PHY101": "D",
-      "PHY107": "B",
-      "STA111": "C"
-    },
-    "gpa": 3.11,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Akinpeloye Righteousness",
-    "matricNo": "U25CS1065",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "B",
-      "STA111": "A"
-    },
-    "gpa": 4.50,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Mohammed Khadijah Gumsuri",
-    "matricNo": "U25CS1066",
-    "results": {
-      "COS101": "A",
-      "CSC111": "C",
-      "GST111": "A",
-      "MTH101": "C",
-      "MTH103": "C",
-      "PHY101": "C",
-      "PHY107": "A",
-      "STA111": "B"
-    },
-    "gpa": 3.78,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Ajibade Mutimonat Amoke",
-    "matricNo": "U25CS1067",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "A",
-      "STA111": "A"
-    },
-    "gpa": 4.50,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Arum Enoch Jonathan",
-    "matricNo": "U25CS1068",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "B",
-      "PHY107": "A",
-      "STA111": "A"
-    },
-    "gpa": 4.50,
-    "status": "GOOD STANDING"
-  },
+  
   {
     "name": "Tsok Tim Kelvin",
     "matricNo": "U25CS1069",
@@ -1155,54 +1206,7 @@
     "gpa": 3.83,
     "status": "GOOD STANDING"
   },
-  {
-    "name": "Zarmai Emmanuela Shekwonygah",
-    "matricNo": "U25CS1073",
-    "results": {
-      "COS101": "A",
-      "CSC111": "B",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "E",
-      "PHY101": "C",
-      "PHY107": "A",
-      "STA111": "B"
-    },
-    "gpa": 3.83,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Nurudeen Ashwaq",
-    "matricNo": "U25CS1074",
-    "results": {
-      "COS101": "A",
-      "CSC111": "A",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "C",
-      "PHY101": "B",
-      "PHY107": "B",
-      "STA111": "A"
-    },
-    "gpa": 4.39,
-    "status": "GOOD STANDING"
-  },
-  {
-    "name": "Musa Hephzibah Yesoko",
-    "matricNo": "U25CS1075",
-    "results": {
-      "COS101": "A",
-      "CSC111": "A",
-      "GST111": "A",
-      "MTH101": "B",
-      "MTH103": "B",
-      "PHY101": "A",
-      "PHY107": "B",
-      "STA111": "A"
-    },
-    "gpa": 4.67,
-    "status": "GOOD STANDING"
-  },
+
   {
     "name": "Bashir Abdurrahman",
     "matricNo": "U25CS1076",
@@ -1220,22 +1224,6 @@
     "status": "GOOD STANDING"
   },
   {
-    "name": "Oke Selim Abiodun",
-    "matricNo": "U25CS1077",
-    "results": {
-      "COS101": "C",
-      "CSC111": "C",
-      "GST111": "A",
-      "MTH101": "E",
-      "MTH103": "D",
-      "PHY101": "B",
-      "PHY107": "C",
-      "STA111": null
-    },
-    "gpa": 2.93,
-    "status": "GOOD STANDING"
-  },
-  {
     "name": "Victor Chinemelum Frank-Okongwu",
     "matricNo": "U25CS1078",
     "results": {
@@ -1249,6 +1237,22 @@
       "STA111": null
     },
     "gpa": 4.00,
+    "status": "GOOD STANDING"
+  },
+  {
+    "name": "Oke Selim Abiodun",
+    "matricNo": "U25CS1077",
+    "results": {
+      "COS101": "C",
+      "CSC111": "C",
+      "GST111": "A",
+      "MTH101": "E",
+      "MTH103": "D",
+      "PHY101": "B",
+      "PHY107": "C",
+      "STA111": null
+    },
+    "gpa": 2.93,
     "status": "GOOD STANDING"
   }
 ]
